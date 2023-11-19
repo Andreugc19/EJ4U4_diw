@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+body {
+    flex-direction: column;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #44a1a0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#load-more-products {
+    margin: 30px;
+}
+
+header nav {
+    flex-direction: column;
+    text-align: center;
+    background-color: #fffffa;
+}
+
+main > div {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#bottom_header ul {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+}
+
+#bottom_header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-group ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#top_header img {
+    width: 120px;
+}
+
+#bottom_header div input {
+    position: absolute;
+    right: 10px;
+    top: 125px;
+}
+
+#bottom_header ul li a:hover {
+    color: rgb(234, 209, 72);
+}
+
+.list-group ul li a:hover {
+    color: rgb(234, 209, 72);
+}
+
+.list-group {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.list-group li {
+    list-style: none;
+}
+
+#product-listing li {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    grid-gap: 3px;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column; 
+}
+
+.list-group ul {
+    flex-direction: column;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+#products-filter {
+    padding: 16px;
+    background-color: #0d5c63;
+    top: 0;
+}
+
+main div section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#load-more-products button {
+    position: absolute;
+    right: 35%;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    padding: 5px 10px 5px 10px;
+}

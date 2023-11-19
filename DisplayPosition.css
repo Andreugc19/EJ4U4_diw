@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #44a1a0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#load-more-products {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+header nav {
+    flex-direction: column;
+    text-align: center;
+    background-color: #fffffa;
+}
+
+main > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#bottom_header ul {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+}
+
+#bottom_header ul li a {
+    text-decoration: none;
+    color: black;
+}
+.list-group {
+    list-style: none;
+}
+
+.list-group ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#top_header img {
+    width: 120px;
+}
+
+#bottom_header div input {
+    position: absolute;
+    right: 10px;
+    top: 125px;
+}
+
+#bottom_header ul li a:hover {
+    color: rgb(234, 209, 72);
+}
+
+.list-group ul li a:hover {
+    color: rgb(234, 209, 72);
+}
+
+.list-group {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.list-group li {
+    list-style: none;
+}
+
+#product-listing {
+    font-size: 0;
+    text-align: center;
+}
+
+.product-listing {
+    display: block;
+    width: fit-content;
+    text-align: center;
+}
+
+#product-listing > li > article {
+    width: calc(100% / 5);
+    box-sizing: border-box;
+    margin: 5px 40px 10px 0px;
+    float: right;
+    text-align: right;
+}
+
+img {
+    width: 100%;
+}
+
+.item-details {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+}
+
+.list-group ul {
+    flex-direction: column;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+#products-filter {
+    padding: 16px;
+    background-color: #0d5c63;
+    top: 0;
+}
+
+main div section {
+    position: relative;
+    padding: 20px 0;
+}
+
+#load-more-products button {
+    position: absolute;
+    width: auto;
+    right: 35%;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    padding: 5px 10px 5px 10px;
+}
